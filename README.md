@@ -26,6 +26,7 @@ Build tiny-cuda-nn
 cd submodules\tiny-cuda-nn
 cmake . -B build -DCMAKE_BUILD_TYPE=RelWithDebInfo
 cmake --build build --config RelWithDebInfo -j
+cd ../..
 ```
 
 ## Usage
