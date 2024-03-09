@@ -14,8 +14,9 @@ The repository contains submodules, check it out with --recursive
 git clone https://github.com/henrypearce4D/3DGStreamViewer.git --recursive
 ```
 
-Create Anaconda Environment and Install the dependencies:
+Create anaconda environment and install the dependencies:
 ```
+cd 3DGStreamViewer
 conda env create --file environment.yml
 conda activate 3dgstream_viewer
 ```
