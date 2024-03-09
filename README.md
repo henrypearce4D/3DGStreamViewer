@@ -7,8 +7,8 @@ Note this is not the renderer we used to evaluate the render performance of 3DGS
 
 [Flame Steak](https://drive.google.com/file/d/1AXDqSzSaT_uNu_DhKeSmZmrBAfuOhWYY/view?usp=drive_link)
 
-## Usage
 
+## Installation
 The repository contains submodules, check it out with --recursive
 ```shell
 git clone https://github.com/henrypearce4D/3DGStreamViewer.git --recursive
@@ -21,6 +21,14 @@ conda env create --file environment.yml
 conda activate 3dgstream_viewer
 ```
 
+Build tiny-cuda-nn
+```
+cd submodules\tiny-cuda-nn
+cmake . -B build -DCMAKE_BUILD_TYPE=RelWithDebInfo
+cmake --build build --config RelWithDebInfo -j
+```
+
+## Usage
 Launch the viewer:
 ```
 python main.py
