@@ -22,4 +22,3 @@ dependencies:
     - numpy
     - imageio
     - submodules/diff-gaussian-rasterization
-    - submodules/tiny-cuda-nn
