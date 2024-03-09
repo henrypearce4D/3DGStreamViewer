@@ -20,7 +20,10 @@ cd 3DGStreamViewer
 conda env create --file environment.yml
 conda activate 3dgstream_viewer
 ```
-
+Install the requirements
+```
+pip install -r requirements.txt
+```
 Build tiny-cuda-nn
 ```
 cd submodules\tiny-cuda-nn
