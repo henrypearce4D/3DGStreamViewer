@@ -8,19 +8,16 @@ Note this is not the renderer we used to evaluate the render performance of 3DGS
 [Flame Steak](https://drive.google.com/file/d/1AXDqSzSaT_uNu_DhKeSmZmrBAfuOhWYY/view?usp=drive_link)
 
 ## Usage
-Install the dependencies:
-```
-pip install -r requirements.txt
-```
-Install [Pytorch](https://pytorch.org/) w/ CUDA
 
-Install the [diff-gaussian-rasterization](https://github.com/graphdeco-inria/diff-gaussian-rasterization) following the guidance [here](https://github.com/graphdeco-inria/gaussian-splatting). 
-
-Install the [tiny-cuda-nn](https://github.com/NVlabs/tiny-cuda-nn).
-
-Install the following package:
+The repository contains submodules, check it out with --recursive
+```shell
+git clone https://github.com/henrypearce4D/3DGStreamViewer.git --recursive
 ```
-pip install cuda-python
+
+Create Anaconda Environment and Install the dependencies:
+```
+conda env create --file environment.yml
+conda activate 3dgstream_viewer
 ```
 
 Launch the viewer:
